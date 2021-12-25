@@ -1,0 +1,14 @@
+@mixin card {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 3em;
+	width: 375px;
+	height: 450px;
+}
+
+@mixin btn-hover {
+	border: 2px solid $transparent-white;
+	color: $transparent-white;
+	cursor: pointer;
+}
